@@ -1,0 +1,14 @@
+// ==========================================================================================
+// Base
+// ==========================================================================================
+
+// a11y - only display outlines for tabbing
+*:active, *:focus {
+	outline: 0;
+}
+
+*:active.keyboard-outline, *:focus.keyboard-outline {
+	outline: thin dotted;
+  	outline: 5px auto -webkit-focus-ring-color;
+  	outline-offset: -1px;
+}
